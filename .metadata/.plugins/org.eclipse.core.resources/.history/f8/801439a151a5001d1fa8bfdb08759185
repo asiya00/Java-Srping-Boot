@@ -1,0 +1,56 @@
+package com.example.springrestapi.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.springrestapi.entity.Courses;
+
+@Service
+public class CourseService implements Services {
+
+	List<Courses> list;
+	
+	public CourseService() {
+		list = new ArrayList<>();
+		list.add(new Courses(145, "Java Core Course", "Java course"));
+		list.add(new Courses(146, "Spring boot api", "Spring boot course"));
+		
+	}
+	
+	
+	
+	@Override
+	public List<Courses> getcourses() {
+		// TODO Auto-generated method stub
+		return list;
+	}
+
+
+
+	@Override
+	public Courses getcourse(long courseid) {
+		// TODO Auto-generated method stub
+		Courses c = null;
+		for (Courses course:list) {
+			if(course.getId() == courseid) {
+				c = course;
+				break;
+			}
+		}
+		return c;
+	}
+
+
+
+	@Override
+	public Courses addCourse(Courses course) {
+		// TODO Auto-generated method stub
+		list.add(course);
+		return course;
+	}
+	
+
+
+}

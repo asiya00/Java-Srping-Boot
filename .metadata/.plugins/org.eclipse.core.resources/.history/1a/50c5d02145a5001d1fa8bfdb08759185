@@ -1,0 +1,9 @@
+package com.example.springrestapi.entity;
+
+public class Courses {
+	
+	private long id;
+	private String title;
+	private String description;
+
+}

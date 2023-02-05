@@ -1,0 +1,11 @@
+package com.example.springrestapi.services;
+
+import java.util.List;
+
+import com.example.springrestapi.entity.Courses;
+
+public interface Services {
+	
+	public List<Courses> getcourses();
+
+}

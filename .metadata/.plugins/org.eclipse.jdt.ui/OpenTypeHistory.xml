@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=springrestapi/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.springrestapi.services{Services.java[Services" modifiers="513" timestamp="1675602330703"/>
+    <typeInfo handle="=springrestapi/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.springrestapi.dao{Coursedao.java[Coursedao" modifiers="513" timestamp="1675610958134"/>
+    <typeInfo handle="=springrestapi/C:\/Users\/HP\/.m2\/repository\/org\/hibernate\/orm\/hibernate-core\/6.1.6.Final\/hibernate-core-6.1.6.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate.orm=/=/maven.artifactId=/hibernate-core=/=/maven.version=/6.1.6.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.dialect(MySQL8Dialect.class[MySQL8Dialect" modifiers="1048609" timestamp="1675591484283"/>
+</typeInfoHistroy>

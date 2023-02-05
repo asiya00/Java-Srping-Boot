@@ -1,0 +1,16 @@
+package com.example.springrestapi.services;
+
+import java.util.List;
+
+import com.example.springrestapi.entity.Courses;
+
+public class CourseService implements Services {
+
+	@Override
+	public List<Courses> getcourse() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

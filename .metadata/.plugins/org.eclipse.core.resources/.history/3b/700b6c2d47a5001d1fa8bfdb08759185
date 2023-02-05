@@ -1,0 +1,27 @@
+package com.example.springrestapi.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.example.springrestapi.entity.Courses;
+
+public class CourseService implements Services {
+
+	List<Courses> list;
+	
+	public CourseService() {
+		list = new ArrayList<>();
+		list.add(new Courses(145. "Java Core Course", "Java course"));
+		
+	}
+	
+	
+	
+	@Override
+	public List<Courses> getcourse() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}
